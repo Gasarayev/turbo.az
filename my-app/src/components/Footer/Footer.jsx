@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
 
         </div>
-
+        {/* ---------kind of cars-------- */}
       </div>
       <hr />
       <div className="container kind_of_cars">
@@ -126,7 +126,7 @@ const Footer = () => {
           <a href="">Nissan</a>
         </div>
       </div>
-      
+
       <div className="container-fluid borderCssFooter">
         <div className="container footer_nav ">
           <a href="#" className='footer_nav_sections'>Qaydalar</a>
