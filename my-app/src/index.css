@@ -1,0 +1,48 @@
+/* ------Google Fonts------ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&family=Source+Sans+Pro:wght@200;400;700;900&display=swap');
+
+
+
+
+/* ----All style---- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* -----pre-define */
+
+h1,h2,h3,h4,h5,h6{
+  color: #000d6b;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+h3,h4{
+  font-size: 1.8rem;
+}
+
+h5,h6{
+  font-size: 1.2rem;
+}
+
+a{
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover{
+  color: unset;
+}
+
+ul{
+  margin: 0;
+  list-style: none;
+}
+
+.header-top{
+  padding: 14px 0px;
+  background-color: #000d6b;
+}

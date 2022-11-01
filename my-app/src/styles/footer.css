@@ -1,0 +1,164 @@
+
+.footerCss{
+    background-color:#F1F3F7 ;
+    display: contents;
+}
+
+.footer_contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_contact_reklam{
+    padding-left: 5px;
+}
+
+.footer_contact a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.footer_contact_reklam a:hover{
+    color:#CA1016 ;
+    cursor: pointer;
+}
+
+.footer_contact_info{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_contact_info i{
+    font-size: 23px;
+    color: #8D94AD;
+}
+
+.footer_contact_info a:hover i{
+    color: #CA1016;
+}
+
+.contact_mail{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.contact_mail > span{
+    padding-right: 5px;
+}
+
+.contact_mail:hover a{
+    color: #CA1016;
+}
+
+.contact_mail:hover i{
+    color: #CA1016;
+}
+
+.contact_call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_call > p{
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.contact_call:hover a{
+    color: #CA1016;
+}
+
+.contact_call:hover i{
+    color: #CA1016;
+}
+
+/* ------------kind of cars------------- */
+.kind_of_cars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kind_of_cars_part a{
+    text-decoration: none;
+    color: #8D94AD;
+    font-size: 15px;
+}
+
+.kind_of_cars_part a:hover{
+    color: #CA1016;
+}
+
+/* -----------Navbar Footer------- */
+.footer_nav{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.borderCssFooter{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer_nav_sections{
+    padding-right: 40px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.footer_nav_sections:hover{
+    color: #CA1016;
+    cursor: pointer;
+}
+
+/* ------footer bottom -------- */
+.footer_bottom_bg{
+    height: 60px;
+    background-color: #CA1016;
+}
+
+.footer_bottom{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_bottom_text{
+    width: 400px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer_bottom_since{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_bottom_since span{
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer_bottom_since a{
+    text-decoration:none;
+    color: #fff;
+}
+
+.footer_bottom_since a:hover{
+    text-decoration: underline;
+    color: #fff;
+}

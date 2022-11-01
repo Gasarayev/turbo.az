@@ -1,0 +1,138 @@
+.header_top_bg{
+    background-color: #f6f7fa;
+}
+
+.header_top{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.header_top_left a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #8d94ad;
+    padding-right: 30px;
+}
+
+.header_top_left a:hover{
+    color: #CA1016;
+}
+
+.header_top_right{
+    width: 100%;
+    font-size: 18px;
+}
+
+.commonCss{
+    margin-left: 35px;
+    color: #8d94ad;
+}
+
+.commonCss a{
+    color: #8d94ad;
+    text-decoration: none;
+}
+
+.header_top_right_phone a:hover{
+    color: #CA1016;
+}
+
+.chosen span{
+    margin-left: 5px;
+}
+
+.login a > i{
+    margin-right: 5px;
+}
+
+.commonCss:hover{
+    color: #CA1016;
+    cursor: pointer;
+}
+
+.commonCss a:hover{
+    color: #CA1016;
+    cursor: pointer;
+}
+
+
+.header_top_right_phone{
+    font-size: 18px;
+    color: #212c3a;
+    cursor: default;
+}
+
+.header_top_right_list span a{
+    text-decoration: none;
+    color: #212c3a;
+    cursor: default;
+}
+
+.header_top_right_list span a:hover{
+    color: #CA1016;
+}
+
+/* ----------Header-Body--------- */
+.header_body_bg{
+    background-color: #CA1016;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.header-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-navbar a{
+    text-decoration: none;
+    color: #f6f7fa;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.logo{
+    font-weight: 700;
+}
+
+.logo:hover{
+    color: #f6f7fa;
+}
+
+.navbar-section:hover{
+    color: #8d94ad;
+}
+
+.drop-down-menu a:hover{
+    color: #8d94ad;
+}
+
+.header-body-btn{
+    height: 40px;
+    background-color: #7ed321;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header-body-btn a{
+    text-decoration: none;
+    color: #f6f7fa;
+    display: flex;
+}
+
+.header-body-btn a > i{
+    padding-right: 5px;
+}
+
+.header-body-btn:hover{
+    background-color: #6AA629;
+    cursor: pointer;
+}
+
+.header-body-btn:hover a{
+    color: #f6f7fa;
+}
